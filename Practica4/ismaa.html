@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"> <!--  permite a los navegadores interpretar correctamente el texto -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- con este link indicamos que utilizaremos bootstrap en la estructura de este codigo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Acomodo De Imagenes!</title> <!--le asignamos un nombre a nuestra pestaña -->
+</head>
+
+<body class="ColorFondo"> <!--la primera clase que estructurara todo el contenido-->
+    <div class="container mt-5"> <!--nuestro contenedor tendra 5 espacios-->
+        <h1 class="text-center">Super Heroes</h1> <!--indicamos que nuestro encabezado sera centrado-->
+        <hr><!--esta etiqueta se utiliza para hacer una linea larga -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <!-- indicamos con el row que va a ser 1 fila de 3 columnas-->
+            <div class="col"><!--nuestra primera clase que contendra a la imagen y al link encapsulados -->
+                <div class="card shadow-lg p-3 mb-5 bg-body rounded rounded-3">
+                    <a href="https://www.youtube.com/watch?v=aw0-5ArWAZM"><!--ponemos la ruta del vieo-->
+                        <!--incertamos la primera imagen y dentro de ella contendra un link de video-->
+                        <img src="img1.jpg" class="card-img-top" alt="No Colocaste Bien Tu Ruta De Imagenes">
+                        <!--la imagen debe de estar descargada y guardada en el mismo lugar del html-->
+                    </a>
+                    <div class="card-body"><!--creamos un contenedor para la descripcion que contendra texto-->
+                        <h2 class="text-center">Reuniendo al equipo</h2><!--el titulo que lleva abajo de la img-->
+                        <hr> <!--creamos una linea media dentro del contenedor de la imagen-->
+                    </div>
+                </div>
+            </div><!--cerramos nuestro primer contenedor de imagen-->
+
+
+
+            <div class="col"><!--creamos nuestro segundo contenedor-->
+                <div class="card shadow-lg p-3 mb-5 bg-body rounded rounded-3">
+                    <a href="https://www.youtube.com/watch?v=ENxMhkW1ViA&t=260s"><!--insertamos el video-->
+                        <!--colocamos la imagen con un texto emergente si no la encuentra-->
+                        <img src="Img2.jpg" class="card-img-top" alt="No Colocaste Bien Tu Ruta De Imagenes">
+                    </a><!--cerramos el contenido de el video y la imagen-->
+                    <div class="card-body"><!--creamos un contenedor abajo de la imagen-->
+                        <h2 class="text-center">El Mejor Equipo Fantastico</h2><!--texto alucivo a la imagen-->
+                        <hr><!--linea vertical abajo del texto-->
+                    </div><!--cierre de etiquetas-->
+                </div><!--cierre de etiquetas-->
+            </div><!--cierre de etiquetas-->
+            <div class="col"><!--creamos nuestro tercer contenedor para la imagen-->
+                <div class="card shadow-lg p-3 mb-5 bg-body rounded rounded-3">
+                    <a>
+                    <!--insertamos el video del link que queremos que nos mande cuando demos click a la imagen-->
+                       <a href="https://www.youtube.com/watch?v=x784Cpu9Ac4&list=RDEMC3RAjrr2Snsh35_zzCMTtg&start_radio=1&rv=MT6dD8sDSgo">
+                        <!--insertamos una imagen con un texto por si no la encuentras o colocaste la ruta mal-->
+                        <img src="img3.jpg" class="card-img-top" alt="No Colocaste Bien Tu Ruta De Imagenes">
+                    </a><!--cerramos el link del video como el de la imagen-->
+                    <div class="card-body"><!--nuevo contenedor-->
+                        <h2 class="text-center"> Final del lado oscuro</h2><!--creamos un encabezado-->
+                        <hr><!--cremos una linea dentro del contenedor abajo del emcabezado-->
+                    </div><!--cierre de etiquetas-->
+                </div><!--cierre de etiquetas-->
+            </div><!--cierre de etiquetas-->
+        </div><!--cierre de etiquetas-->
+    </div><!--cierre de etiquetas-->
+        <!-- cerramos el script de boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body> <!--cerramos el cuerpo del contenido que lleva la pagina-->
+
+</html><!--cerramos la estructura html-->
